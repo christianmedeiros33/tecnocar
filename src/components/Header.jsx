@@ -13,7 +13,6 @@ const Header = () => {
         <li>Serviços</li>
         <li>Agendamento</li>
         <li>Contato</li>
-        {/* todo: remover este comentario */}
       </ul>
       <img src={background} />
     </header>
