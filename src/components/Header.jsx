@@ -12,7 +12,7 @@ const Header = () => {
         <li>Tecnocar</li>
         <li>Serviços</li>
         <li>Agendamento</li>
-        <li>Contratos</li>
+        <li>Contatos</li>
 
       </ul>
       <img src={background} />
