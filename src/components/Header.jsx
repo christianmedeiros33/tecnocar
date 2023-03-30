@@ -5,18 +5,34 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header className={styles.headerIndex}>
-      <img src={Logo}/>
-      <ul>
-        <li>Inicio</li>
-        <li>Tecnocar</li>
-        <li>Serviços</li>
-        <li>Agendamento</li>
-        <li>Contatos</li>
+    <>
+      <div className={styles.background}></div>
+      <header className={styles.content}>
+        <img src={Logo} className={styles.logo} />
+        <div className={styles.links}>
+          <ul className={styles.lista}>
+            <a href="#">
+              <li>Inicio</li>
+            </a>
+            <a href="#">
+              <li>Tecnocar</li>
+            </a>
 
-      </ul>
-      <img src={background} />
-    </header>
+            <a href="#">
+              <li>Serviços</li>
+            </a>
+
+            <a href="#">
+              <li>Agendamento</li>
+            </a>
+
+            <a href="#">
+              <li>Contato</li>
+            </a>
+          </ul>
+        </div>
+      </header>
+    </>
   );
 };
 
