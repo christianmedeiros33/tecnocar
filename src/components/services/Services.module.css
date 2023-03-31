@@ -1,0 +1,57 @@
+.main {
+  padding: 2rem;
+}
+.main h2 {
+    text-decoration: underline;
+    padding: 0 0 2rem 0 ;
+    text-align: center;
+}
+.mainFlex {
+    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.content {
+  background-color: red;
+
+  border: 0.1rem solid rgb(224, 219, 219);
+  background-color: rgb(255, 255, 255);
+  height: 26.5rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.contentImage {
+  background-image: url(../../assets/services.svg);
+
+  border-radius: 0.5rem 0.5rem 0 0;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20rem;
+  width: 15rem;
+  background-color: red;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #800;
+  font-weight: bold;
+}
+
+.text button {
+  padding: 0.8rem;
+  width: 10.8rem;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  background-color: #800000;
+}

@@ -1,0 +1,31 @@
+.bodyr {
+
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.experiencia {
+  line-height: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.experiencia p {
+  font-size: 1.2rem;
+  color: #800000;
+}
+.experiencia button{
+    padding: .8rem;
+    width: 10.8rem;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    background-color: #800000;
+}
+
+.sobre {
+  font-weight: 550;
+  width: 40%;
+}

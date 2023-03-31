@@ -1,15 +1,18 @@
 .content {
+  
   background-color: #800000;
   padding: 0.5rem;
   height: 6rem;
 }
 
-header {
+.content {
+  padding: 0 7rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .logo {
+  
   height: 5rem;
 }
 
@@ -25,10 +28,5 @@ a {
   list-style: none;
   font-weight: bold;
   color: #fff;
-}
-
-li:hover {
-  padding: 10px;
-  text-decoration: underline;
-  font-weight: bold;
+  transition: 0.5s;
 }

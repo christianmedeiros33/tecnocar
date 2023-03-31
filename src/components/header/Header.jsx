@@ -1,12 +1,10 @@
 import React from "react";
-import Logo from "../assets/logo.svg";
-import background from "../assets/divback.svg";
-import styles from "./Header.module.css";
+import Logo from "./../../assets/logo.svg";
+import styles from "../header/Header.module.css";
 
 const Header = () => {
   return (
     <>
-      <div className={styles.background}></div>
       <header className={styles.content}>
         <img src={Logo} className={styles.logo} />
         <div className={styles.links}>

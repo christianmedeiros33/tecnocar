@@ -1,0 +1,26 @@
+.main {
+  padding-left: 5rem;
+  height: 80vh;
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./../../assets/divback.svg);
+}
+
+.textContent {
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  line-height: 1.5;
+  padding: 10rem 0 0 2rem;
+  flex-direction: column;
+}
+
+.textContent h1 {
+  font-size: 4rem;
+}
+.textContent p {
+  font-size: 1.4em;
+}
