@@ -1,5 +1,5 @@
 import "./App.css";
-import { ContentIndex } from "./components/contentIndex/contentIndex";
+import  ContentIndex  from "./components/contentIndex/ContentIndex";
 import ContentSobre from "./components/contentSobre/ContentSobre";
 import Header from "./components/header/Header";
 import SectionServices from "./components/sectionServices/SectionServices";

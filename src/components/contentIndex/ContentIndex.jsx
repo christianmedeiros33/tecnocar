@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../contentIndex/ContentIndex.module.css";
 
-export const ContentIndex = () => {
+const ContentIndex = () => {
   return (
     <>
       <div className={styles.main}>
@@ -15,3 +15,4 @@ export const ContentIndex = () => {
     </>
   );
 };
+ export default ContentIndex
