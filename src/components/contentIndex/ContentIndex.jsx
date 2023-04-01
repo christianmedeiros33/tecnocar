@@ -15,4 +15,5 @@ const ContentIndex = () => {
     </>
   );
 };
- export default ContentIndex
+
+export default ContentIndex;

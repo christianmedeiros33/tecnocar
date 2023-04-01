@@ -1,5 +1,4 @@
 .bodyr {
-
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -15,17 +14,48 @@
   font-size: 1.2rem;
   color: #800000;
 }
-.experiencia button{
-    padding: .8rem;
-    width: 10.8rem;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    border-radius: 1rem;
-    background-color: #800000;
+.experiencia button {
+  padding: 0.8rem;
+  width: 10.8rem;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  background-color: #800000;
 }
 
 .sobre {
   font-weight: 550;
   width: 40%;
+}
+
+/* 800 quebre */
+
+
+
+@media (max-width: 800px) {
+  .bodyr {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .experiencia {
+    padding-left: 2rem;
+  }
+  .sobre {
+    padding-left: 2rem;
+    width: 90%;
+  }
+}
+
+/* 600 diminuir letras */
+
+@media (max-width: 600px){
+  .experiencia {
+    padding-left: 0rem;
+  }
+  .sobre {
+    padding-left: .0rem;
+    width: 100%;
+  }
 }

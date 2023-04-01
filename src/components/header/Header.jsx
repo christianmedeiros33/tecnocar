@@ -9,9 +9,7 @@ const Header = () => {
         <img src={Logo} className={styles.logo} />
         <div className={styles.links}>
           <ul className={styles.lista}>
-            <a href="#">
-              <li>Inicio</li>
-            </a>
+          
             <a href="#">
               <li>Tecnocar</li>
             </a>

@@ -1,18 +1,14 @@
 .content {
-  
   background-color: #800000;
   padding: 0.5rem;
   height: 6rem;
-}
-
-.content {
   padding: 0 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
-  
   height: 5rem;
 }
 
@@ -29,4 +25,47 @@ a {
   font-weight: bold;
   color: #fff;
   transition: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    height: 9rem;
+    padding: 1rem;
+  }
+  .lista {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 601px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    padding: 0.5rem 0 1rem;
+  }
+  .lista {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    padding: 0.5rem 0 1rem;
+  }
+  .logo {
+    height: 5rem;
+  }
+  .lista {
+    flex-wrap: wrap;
+
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
 }
