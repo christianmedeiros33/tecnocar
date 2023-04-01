@@ -19,7 +19,7 @@ const SectionServices = () => {
         </div>
         <div>
           <img className={styles.image} src={Qualidade} alt="" />
-          <p>Qualidade</p>
+          <p>Qualidade e garantia</p>
         </div>
         <div>
           <img className={styles.image} src={Cartao} alt="" />

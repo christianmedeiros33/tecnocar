@@ -1,0 +1,62 @@
+.location {
+  background-color: #800000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.mapa img {
+  height: 13rem;
+  border-radius: 0.5rem;
+}
+
+.text {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  color: white;
+  font-weight: bold;
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+.buttonClick {
+  display: flex;
+  gap: 1rem;
+  padding: 0.8rem;
+  width: 15em;
+  font-weight: bold;
+  color: #800000;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  margin: 1rem 0;
+  background-color: #fffefe;
+}
+
+@media (max-width: 1000px) {
+  .location {
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 700px) {
+  .location {
+    gap: 2rem;
+
+    padding: 1rem 0 0 0;
+  }
+  .text {
+    width: 90%;
+    font-size: 1.3rem;
+  }
+  .mapa img {
+    padding: 0;
+    border-radius: 0;
+  }
+  .buttonClick {
+    margin: 0 auto;
+  }
+}

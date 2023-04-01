@@ -31,8 +31,6 @@
 
 /* 800 quebre */
 
-
-
 @media (max-width: 800px) {
   .bodyr {
     flex-direction: column;
@@ -50,12 +48,12 @@
 
 /* 600 diminuir letras */
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .experiencia {
     padding-left: 0rem;
   }
   .sobre {
-    padding-left: .0rem;
+    padding-left: 0rem;
     width: 100%;
   }
 }
