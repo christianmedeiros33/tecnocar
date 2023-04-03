@@ -4,7 +4,7 @@ import Emoji from "../../assets/i.svg";
 
 const Services = () => {
   return (
-    <div className={styles.main}>
+    <div id="services" className={styles.main}>
       <div className={styles.serviceText}>
         <h2>Serviços prestados</h2>
       </div>

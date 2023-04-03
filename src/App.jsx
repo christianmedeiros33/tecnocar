@@ -1,10 +1,15 @@
 import "./App.css";
-import ContentIndex from "./components/contentIndex/ContentIndex";
-import ContentSobre from "./components/contentSobre/ContentSobre";
+
+
+
 import Header from "./components/header/Header";
-import Location from "./components/location/Location";
+import ContentSobre from "./components/contentSobre/ContentSobre";
+import ContentIndex from "./components/contentIndex/ContentIndex";
 import SectionServices from "./components/sectionServices/SectionServices";
 import Services from "./components/services/Services";
+import Location from "./components/location/Location";
+import Footer from "./components/footer/Footer";
+import { Credit } from "./components/credit/Credit";
 
 function App() {
   return (
@@ -14,7 +19,9 @@ function App() {
       <ContentSobre />
       <SectionServices />
       <Services />
-      <Location/>
+      <Location />
+      <Footer/>
+      <Credit/>
     </div>
   );
 }

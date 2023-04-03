@@ -1,0 +1,10 @@
+.main{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+    font-size: .8rem;
+    align-items: center;
+    background-color: #800000;
+}
+

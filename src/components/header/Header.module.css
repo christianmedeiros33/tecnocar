@@ -1,3 +1,14 @@
+.whats {
+  display: flex;
+  justify-content: end;
+}
+.whats img {
+  top: 85%;
+  right: 1%;
+  position: fixed;
+  width: 3rem;
+}
+
 .content {
   background-color: #800000;
   padding: 0.5rem;
@@ -20,6 +31,7 @@
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   list-style: none;
   font-weight: bold;

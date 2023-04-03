@@ -3,7 +3,7 @@ import styles from "../contentSobre/ContentSobre.module.css";
 
 const ContentSobre = () => {
   return (
-    <div className={styles.bodyr}>
+    <div id="tecnocar" className={styles.bodyr}>
       <div className={styles.experiencia}>
         <h3>A MELHOR EXPERIÊNCIA PARA O SEU CARRO.</h3>
         <p>Sempre em busca de qualidade.</p>

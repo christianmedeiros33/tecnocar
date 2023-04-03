@@ -18,23 +18,22 @@
   gap: 2rem;
 }
 .content {
-  border: 0.1rem solid rgb(224, 219, 219);
   background-color: rgb(200, 198, 198);
   height: 21rem;
   width: 15rem;
   text-align: center;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
 }
 .contentImage {
   background-image: url(../../assets/services.svg);
 
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: 0.3rem 0.3rem 0 0;
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 15rem;
-  width: 14.8rem;
+  width: 15rem;
 }
 
 .text {
@@ -66,19 +65,23 @@
   border: none;
   border-radius: 0.4rem;
   background-color: #800000;
+  font-weight: bold;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   p {
     font-size: 1.2rem;
     padding: 0.2rem;
   }
   .content {
-    height: 24rem;
+    height: 24.5rem;
     width: 20rem;
   }
   .contentImage {
     height: 18rem;
-    width: 19.8rem;
+    width: 20rem;
+  }
+  .mainFlex {
+    gap: 1.5rem;
   }
 }
