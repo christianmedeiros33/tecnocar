@@ -8,3 +8,12 @@
     background-color: #800000;
 }
 
+@media (max-width: 600px){
+    .main{
+        font-size: .5rem;
+        padding: .5rem;
+    }
+    .main p {
+        font-size: .5rem;
+    }
+}

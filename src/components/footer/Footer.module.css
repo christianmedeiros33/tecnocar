@@ -1,16 +1,22 @@
 .main {
   padding: 3rem;
   display: flex;
-  gap: 4rem;
-  justify-content: center;
-  align-items: center;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.containerText{
+  display: flex;
+  gap: 3rem;
+}
+.containerTextAndRedes{
+  display: flex;
+  gap: 3rem;
 }
 
 .containerRedes {
-  display: flex;
   justify-content: start;
   align-items: center;
-  gap: 1rem;
   flex-direction: column;
 }
 
@@ -20,4 +26,36 @@
   align-items: center;
   flex-direction: row;
   gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .main {
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .containerText {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 0 auto;
+    gap: 2.7rem;
+  }
+  .containerTextAndRedes {
+    display: flex;
+
+    justify-content: start;
+    align-items: start;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  .containerTextAndRedes p {
+    font-size: 0.8rem;
+  }
+  .containerText p {
+    font-size: 0.8rem;
+  }
 }
