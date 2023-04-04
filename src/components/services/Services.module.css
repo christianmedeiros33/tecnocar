@@ -15,7 +15,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
+}
+.cardOneTwo {
+  display: flex;
+  gap: 1rem;
+}
+
+.cardThreeFor {
+  display: flex;
+  gap: 1rem;
 }
 .content {
   background-color: rgb(200, 198, 198);
@@ -83,5 +92,21 @@
   }
   .mainFlex {
     gap: 1.5rem;
+  }
+  .cardOneTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cardThreeFor {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+  }
+  .buttonClick {
+    width: 13rem;
+    margin: 0 auto;
   }
 }
