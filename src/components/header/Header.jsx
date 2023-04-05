@@ -36,7 +36,7 @@ const Header = () => {
 
             <a>
               <li>
-                <Link to="contatos" spy={true} smooth={true} duration={6000}>
+                <Link to="contatos" spy={true} smooth={true} duration={1000}>
                   Contato
                 </Link>
               </li>
