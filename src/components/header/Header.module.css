@@ -3,7 +3,7 @@
   justify-content: end;
 }
 .whats img {
-  top: 90%;
+  top: 83%;
   right: 1%;
   position: fixed;
   width: 3rem;
@@ -12,7 +12,7 @@
 .content {
   background-color: #800000;
   padding: 0.5rem;
-  height: 6rem;
+  height: auto;
   padding: 0 7rem;
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ a {
   .content {
     display: flex;
     flex-direction: column;
-    height: 8rem;
+    height: auto;
     padding: 0.5rem 0 1rem;
   }
   .lista {
@@ -68,7 +68,7 @@ a {
   .content {
     display: flex;
     flex-direction: column;
-    height: 8rem;
+    height: auto;
     padding: 0.5rem 0 1rem;
   }
   .logo {

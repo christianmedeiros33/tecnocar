@@ -1,7 +1,5 @@
 import "./App.css";
 
-
-
 import Header from "./components/header/Header";
 import ContentSobre from "./components/contentSobre/ContentSobre";
 import ContentIndex from "./components/contentIndex/ContentIndex";
@@ -20,8 +18,8 @@ function App() {
       <SectionServices />
       <Services />
       <Location />
-      <Footer/>
-      <Credit/>
+      <Footer />
+      <Credit />
     </div>
   );
 }

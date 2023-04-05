@@ -1,19 +1,18 @@
-.main{
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    padding: 1rem;
-    font-size: .8rem;
-    align-items: center;
-    background-color: #800000;
+.main {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.8rem;
+  align-items: center;
+  background-color: #800000;
 }
 
-@media (max-width: 600px){
-    .main{
-        font-size: .5rem;
-        padding: .5rem;
-    }
-    .main p {
-        font-size: .5rem;
-    }
+@media (max-width: 600px) {
+  .main {
+    padding: 1rem 0 ;
+  }
+  .main p {
+    font-size: .8rem;
+  }
 }

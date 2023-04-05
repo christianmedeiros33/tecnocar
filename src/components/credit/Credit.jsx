@@ -6,8 +6,7 @@ export const Credit = () => {
   return (
     <div id="contatos" className={styles.main}>
       <p>
-        © 2022 Tecnocar - Todos os direitos reservados desenvolvido por{" "}
-        <a href="https://wa.me/5551997811832" target="_blank">@medeiroscode</a>
+        © 2023 Oficina Tecnocar Camaquã - <a href="https://wa.me/5551997811832" target="_blank">@medeiroscode</a>
       </p>
     </div>
   );

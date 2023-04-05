@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./../../assets/logo.svg";
 import styles from "../header/Header.module.css";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -9,20 +10,36 @@ const Header = () => {
         <img src={Logo} className={styles.logo} />
         <div className={styles.links}>
           <ul className={styles.lista}>
-            <a href="/#tecnocar">
-              <li>Tecnocar</li>
+            <a>
+              <li>
+                <Link to="sobre" spy={true} smooth={true} duration={1000}>
+                  Sobre
+                </Link>
+              </li>
             </a>
 
-            <a href="/#services">
-              <li>Serviços</li>
+            <a>
+              <li>
+                <Link to="services" spy={true} smooth={true} duration={1000}>
+                  Serviços
+                </Link>
+              </li>
             </a>
 
-            <a href="https://orcamentotecnocar.vercel.app/" target="_blank">
-              <li>Agendamento</li>
+            <a>
+              <li>
+                <Link to="location" spy={true} smooth={true} duration={1000}>
+                  Agendamento
+                </Link>
+              </li>
             </a>
 
-            <a href="/#contatos">
-              <li>Contato</li>
+            <a>
+              <li>
+                <Link to="contatos" spy={true} smooth={true} duration={6000}>
+                  Contato
+                </Link>
+              </li>
             </a>
           </ul>
         </div>

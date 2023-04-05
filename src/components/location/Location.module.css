@@ -12,9 +12,9 @@
 }
 
 .text {
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
   color: white;
   font-weight: bold;
   width: 30%;
@@ -51,6 +51,9 @@
   .text {
     width: 90%;
     font-size: 1.3rem;
+  }
+  .mapa{
+    padding: 0 0 2rem 0 ;
   }
   .mapa img {
     padding: 0;

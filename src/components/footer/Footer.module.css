@@ -1,8 +1,8 @@
 .main {
   padding: 3rem;
   display: flex;
-  gap: 1rem;
-  justify-content: space-evenly;
+  gap: 3rem;
+  justify-content: center;
 }
 
 .containerText{
