@@ -9,6 +9,7 @@ import Location from "./components/location/Location";
 import Footer from "./components/footer/Footer";
 import { Credit } from "./components/credit/Credit";
 
+
 function App() {
   return (
     <div className="App">

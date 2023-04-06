@@ -10,9 +10,16 @@
 
 @media (max-width: 600px) {
   .main {
-    padding: 1rem 0 ;
+    padding: 1rem 0;
   }
   .main p {
-    font-size: .8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .main p {
+    padding: 1rem;
+    font-size: 0.79rem;
   }
 }

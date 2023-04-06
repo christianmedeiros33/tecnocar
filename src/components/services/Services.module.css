@@ -53,6 +53,9 @@
   color: #800;
   font-weight: bold;
 }
+.text p {
+  padding: .3rem;
+}
 
 .text button {
   padding: 0.8rem;
@@ -108,5 +111,17 @@
   .buttonClick {
     width: 13rem;
     margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 321px){
+  .content {
+    height: 22rem;
+    width: 18rem;
+  }
+  .contentImage {
+    height: 15rem;
+    width: 18rem;
   }
 }
