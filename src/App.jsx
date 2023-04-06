@@ -8,6 +8,9 @@ import Services from "./components/services/Services";
 import Location from "./components/location/Location";
 import Footer from "./components/footer/Footer";
 import { Credit } from "./components/credit/Credit";
+import Mapa from "./components/mapa/Mapa";
+
+
 
 
 function App() {
@@ -19,6 +22,7 @@ function App() {
       <SectionServices />
       <Services />
       <Location />
+      <Mapa/>
       <Footer />
       <Credit />
     </div>
