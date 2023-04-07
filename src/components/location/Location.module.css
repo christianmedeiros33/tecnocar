@@ -52,8 +52,8 @@
     width: 90%;
     font-size: 1.3rem;
   }
-  .mapa{
-    padding: 0 0 2rem 0 ;
+  .mapa {
+    padding: 0 0 2rem 0;
   }
   .mapa img {
     height: 10rem;
@@ -66,8 +66,8 @@
   }
 }
 
-@media (max-width: 321px){
-  .mapa img{
+@media (max-width: 321px) {
+  .mapa img {
     height: 10rem;
   }
 }

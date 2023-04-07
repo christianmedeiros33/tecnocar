@@ -18,12 +18,8 @@ const Location = () => {
         </a>
       </div>
       <div className={styles.mapa}>
-      <img src={Oficina} alt="" />
-     
+        <img src={Oficina} alt="" />
       </div>
-      <button className={styles.buttonClick}>
-            <img src={Emoji} /> Ir até a oficina
-          </button>
     </div>
   );
 };

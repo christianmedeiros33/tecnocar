@@ -10,9 +10,6 @@ import Footer from "./components/footer/Footer";
 import { Credit } from "./components/credit/Credit";
 import Mapa from "./components/mapa/Mapa";
 
-
-
-
 function App() {
   return (
     <div className="App">
@@ -22,7 +19,7 @@ function App() {
       <SectionServices />
       <Services />
       <Location />
-      <Mapa/>
+      <Mapa />
       <Footer />
       <Credit />
     </div>
