@@ -1,4 +1,4 @@
-.main {
+.content {
   padding: 3rem;
   display: flex;
   gap: 3rem;
@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 600px) {
-  .main {
+  .content {
     flex-wrap: wrap;
     padding: 1rem;
     gap: 1rem;

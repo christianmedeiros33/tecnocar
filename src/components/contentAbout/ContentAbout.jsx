@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "../contentSobre/ContentSobre.module.css";
+import styles from "./ContentAbout.module.css";
 import { Link } from "react-scroll";
 
 const ContentSobre = () => {
   return (
-    <div id="sobre" className={styles.main}>
-      <div className={styles.experiencia}>
+    <div id="sobre" className={styles.content}>
+      <div className={styles.experience}>
         <h3>A MELHOR EXPERIÊNCIA PARA O SEU CARRO.</h3>
         <p>Sempre em busca de qualidade.</p>
         <a href="/#location">
@@ -14,7 +14,7 @@ const ContentSobre = () => {
           </Link>
         </a>
       </div>
-      <div className={styles.sobre}>
+      <div className={styles.about}>
         <p>
           Serviços de diagnóstico sistema eletrônica embarcada manutenção
           preventiva em geral, reparo de módulos de injeção ABS e airbag

@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "../contentIndex/ContentIndex.module.css";
+import styles from "./ContentTecnocar.module.css";
 
 const ContentIndex = () => {
   return (
     <>
-      <div className={styles.main}>
+      <div className={styles.content}>
         <div className={styles.textContent}>
           <h1>Oficina tecnocar</h1>
           <p>

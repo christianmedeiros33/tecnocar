@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import styles from "../mapa/Mapa.module.css";
+import styles from "../sectionMap/SectionMap.module.css";
 import Emoji from "../../assets/iconMaps.svg";
 
 function Mapa() {

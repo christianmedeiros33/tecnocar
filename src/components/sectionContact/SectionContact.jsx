@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./Footer.module.css";
+import styles from "./SectionContact.module.css";
 import Facebook from "../../assets/facebook.svg";
 import Instagram from "../../assets/instagram.svg";
 
 const Footer = () => {
   return (
-    <div className={styles.main}>
+    <div className={styles.content}>
       <div className={styles.containerText}>
         <div>
           <h4>Endereço</h4>

@@ -1,23 +1,24 @@
 .location {
   background-color: #800000;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 3rem 1rem;
+  justify-content: space-between;
 }
-
+.mapa {
+  display: flex;
+}
 .mapa img {
-  height: 13rem;
-  border-radius: 0.5rem;
+  width: 99vh;
 }
 
 .text {
   display: flex;
+  padding: 1rem 0 1rem 5rem;
+  justify-content: center;
   gap: 1rem;
   flex-direction: column;
   color: white;
   font-weight: bold;
-  width: 30%;
+  width: 50%;
   font-size: 1.5rem;
 }
 
@@ -33,6 +34,12 @@
   border-radius: 0.4rem;
   margin: 1rem 0;
   background-color: #fffefe;
+}
+.buttonClick a {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: #800000;
 }
 
 @media (max-width: 1000px) {

@@ -1,7 +1,6 @@
-.main {
-  padding-left: 5rem;
-  height: 80vh;
-  width: 100%;
+.content {
+  height:90vh;
+  display: flex;
   background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,11 +10,10 @@
 
 .textContent {
   color: #fff;
-  justify-content: center;
   display: flex;
-  line-height: 1.5;
-  padding: 10rem 0 0 2rem;
   flex-direction: column;
+  margin: auto;
+  margin-left: 7rem;
 }
 
 .textContent h1 {
@@ -26,7 +24,7 @@
 }
 
 @media (max-width: 1000px) {
-  .main {
+  .content {
     padding-left: 2rem;
   }
   .textContent {
@@ -39,7 +37,7 @@
     font-size: 3rem;
     padding: 4rem 0 0 0;
   }
-  .main {
+  .content {
     height: 45vh;
 
     padding-left: 0rem;
@@ -50,7 +48,7 @@
 }
 
 @media (max-width: 600px) {
-  .main {
+  .content {
     height: 80vh;
 
     padding-left: 0rem;
@@ -66,11 +64,8 @@
   }
 }
 
-
-@media (max-width: 321px){
-
+@media (max-width: 321px) {
   .textContent {
     padding: 2rem 0 0 1rem;
   }
- 
 }

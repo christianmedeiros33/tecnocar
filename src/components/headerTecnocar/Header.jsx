@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./../../assets/logo.svg";
-import styles from "../header/Header.module.css";
+import styles from "./Header.module.css";
 import { Link } from "react-scroll";
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
             <a>
               <li>
                 <Link to="sobre" spy={true} smooth={true} duration={1000}>
-                  Sobre
+                  sobre
                 </Link>
               </li>
             </a>
@@ -21,7 +21,7 @@ const Header = () => {
             <a>
               <li>
                 <Link to="services" spy={true} smooth={true} duration={1000}>
-                  Serviços
+                  serviços
                 </Link>
               </li>
             </a>
@@ -29,7 +29,7 @@ const Header = () => {
             <a>
               <li>
                 <Link to="location" spy={true} smooth={true} duration={1000}>
-                  Agendamento
+                  agendamento
                 </Link>
               </li>
             </a>
@@ -37,14 +37,14 @@ const Header = () => {
             <a>
               <li>
                 <Link to="contatos" spy={true} smooth={true} duration={1000}>
-                  Contato
+                  contato
                 </Link>
               </li>
             </a>
           </ul>
         </div>
       </header>
-      <div className={styles.whats}>
+      <div className={styles.iconWhatsapp}>
         <a href="https://wa.me/5551995592253" target="_blank">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png"

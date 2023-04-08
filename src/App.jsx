@@ -1,27 +1,26 @@
 import "./App.css";
 
-import Header from "./components/header/Header";
-import ContentSobre from "./components/contentSobre/ContentSobre";
-import ContentIndex from "./components/contentIndex/ContentIndex";
+import Header from "./components/headerTecnocar/Header";
+import ContentTecnocar from "./components/contentTecnocar/ContentTecnocar";
+import ContentAbout from "./components/contentAbout/ContentAbout";
+import SectionSpecialties from "./components/sectionSpecialties/SectionSpecialties";
 import SectionServices from "./components/sectionServices/SectionServices";
-import Services from "./components/services/Services";
-import Location from "./components/location/Location";
-import Footer from "./components/footer/Footer";
-import { Credit } from "./components/credit/Credit";
-import Mapa from "./components/mapa/Mapa";
-
+import SectionScheduling from "./components/sectionScheduling/SectionScheduling";
+import SectionMap from "./components/sectionMap/SectionMap";
+import SectionContact from "./components/sectionContact/SectionContact";
+import SectionCredit from "./components/sectionCredit/SectionCredit";
 function App() {
   return (
     <div className="App">
       <Header />
-      <ContentIndex />
-      <ContentSobre />
+      <ContentTecnocar />
+      <ContentAbout />
+      <SectionSpecialties />
       <SectionServices />
-      <Services />
-      <Location />
-      <Mapa />
-      <Footer />
-      <Credit />
+      <SectionScheduling />
+      <SectionMap />
+      <SectionContact/>
+      <SectionCredit />
     </div>
   );
 }
