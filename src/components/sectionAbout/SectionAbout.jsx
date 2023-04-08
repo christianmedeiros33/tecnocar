@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ContentAbout.module.css";
+import styles from "./SectionAbout.module.css";
 import { Link } from "react-scroll";
 
 const ContentSobre = () => {

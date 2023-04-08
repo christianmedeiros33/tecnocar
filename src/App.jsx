@@ -1,8 +1,8 @@
 import "./App.css";
 
 import Header from "./components/headerTecnocar/Header";
-import ContentTecnocar from "./components/contentTecnocar/ContentTecnocar";
-import ContentAbout from "./components/contentAbout/ContentAbout";
+import SectionTecnocar from "./components/sectionTecnocar/SectionTecnocar";
+import SectionAbout from "./components/sectionAbout/SectionAbout";
 import SectionSpecialties from "./components/sectionSpecialties/SectionSpecialties";
 import SectionServices from "./components/sectionServices/SectionServices";
 import SectionScheduling from "./components/sectionScheduling/SectionScheduling";
@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <ContentTecnocar />
-      <ContentAbout />
+      <SectionTecnocar />
+      <SectionAbout />
       <SectionSpecialties />
       <SectionServices />
       <SectionScheduling />
       <SectionMap />
-      <SectionContact/>
+      <SectionContact />
       <SectionCredit />
     </div>
   );

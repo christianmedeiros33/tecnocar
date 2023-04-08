@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ContentTecnocar.module.css";
+import styles from "./SectionTecnocar.module.css";
 
 const ContentIndex = () => {
   return (
