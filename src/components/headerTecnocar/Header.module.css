@@ -13,10 +13,9 @@
   background-color: #800000;
   padding: 0.5rem;
   height: auto;
-  padding: 0 7rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo {
@@ -40,11 +39,11 @@ a {
   transition: 0.5s;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   .content {
-    flex-direction: column;
-    height: 9rem;
-    padding: 1rem;
+    flex-direction: row;
+    height: 7rem;
+    padding: 1rem 5rem;
   }
   .lista {
     font-size: 1.3rem;

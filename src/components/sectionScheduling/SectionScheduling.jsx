@@ -1,10 +1,9 @@
 import styles from "./SectionScheduling.module.css";
 import Emoji from "../../assets/i2.svg";
-import Oficina from "../../assets/oficina.jpg";
 
 const Location = () => {
   return (
-    <div id="location" className={styles.location}>
+    <div id="location" className={styles.contentSchenduling}>
       <div className={styles.text}>
         <p>Faça seu agendamento agora mesmo clicando no botão abaixo:</p>
 
@@ -18,9 +17,8 @@ const Location = () => {
           </a>
         </button>
       </div>
-      <div className={styles.mapa}>
-        <img src={Oficina} />
-      </div>
+
+      <div className={styles.workshopPhoto}></div>
     </div>
   );
 };

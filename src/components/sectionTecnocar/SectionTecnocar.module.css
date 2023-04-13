@@ -23,15 +23,6 @@
   font-size: 1.4em;
 }
 
-@media (max-width: 1000px) {
-  .content {
-    padding-left: 2rem;
-  }
-  .textContent {
-    padding: 5rem 0 0 2rem;
-  }
-}
-
 @media (max-width: 900px) {
   .textContent h1 {
     font-size: 3rem;
