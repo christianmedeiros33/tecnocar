@@ -1,5 +1,5 @@
 .contentSchenduling {
-  background-color: #800000;
+  background-color: var(--red);
   display: flex;
   height: 25rem;
 }
@@ -17,29 +17,31 @@
   padding: 3.5rem 6rem;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: var(--white);
   font-weight: bold;
   font-size: 1.5rem;
 }
-
+.text p{
+  width: 109%;
+}
 .buttonClick {
   display: flex;
   gap: 1rem;
   padding: 0.8rem;
-  width: 15em;
+  width: 15.5em;
   font-weight: bold;
-  color: #800000;
+  color: var(--red);
   cursor: pointer;
   border: none;
   border-radius: 0.4rem;
   margin: 1rem 0;
-  background-color: #fffefe;
+  background-color: var(--white);
 }
 .buttonClick a {
   display: flex;
   gap: 0.5rem;
   font-weight: bold;
-  color: #800000;
+  color: var(--red);
 }
 
 @media (max-width: 1000px) {
@@ -51,22 +53,31 @@
   }
 }
 @media (max-width: 800px) {
-  .workshopPhoto {
-    padding: 0 0 2rem 0;
-  }
-  .workshopPhoto img {
-    height: 10rem;
-
-    padding: 0;
-    border-radius: 0;
-  }
-  .buttonClick {
-    margin: 0 auto;
+  .text p {
+    width: 110%;
   }
 }
 
+@media screen and (max-width: 701px) {
+  .contentSchenduling {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .workshopPhoto {
+  background-size: auto;
+
+  }
+  
+  .text {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+
 @media (max-width: 321px) {
-  .workshopPhoto img {
+  .workshopPhoto {
     height: 10rem;
   }
 }

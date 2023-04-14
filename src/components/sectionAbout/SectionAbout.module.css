@@ -12,16 +12,16 @@
 }
 .experience p {
   font-size: 1.2rem;
-  color: #800000;
+  color: var(--red);
 }
 .experience button {
   padding: 0.8rem;
   width: 10.8rem;
-  color: #fff;
+  color:var(--white);
   cursor: pointer;
   border: none;
   border-radius: 0.4rem;
-  background-color: #800000;
+  background-color: var(--red);
 }
 
 .about {

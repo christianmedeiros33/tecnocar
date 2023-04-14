@@ -10,7 +10,7 @@
 }
 
 .content {
-  background-color: #800000;
+  background-color: var(--red);
   padding: 0.5rem;
   height: auto;
   display: flex;
@@ -35,7 +35,7 @@ a {
   text-decoration: none;
   list-style: none;
   font-weight: bold;
-  color: #fff;
+  color: var(--white);
   transition: 0.5s;
 }
 
@@ -64,7 +64,7 @@ a {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 322px) {
   .content {
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ a {
   }
   .lista {
     flex-wrap: wrap;
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 0.3rem;
   }
 }

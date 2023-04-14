@@ -7,26 +7,24 @@ import Cartao from "./../../assets/cartao.svg";
 
 const SectionServices = () => {
   return (
-    <>
-      <div className={styles.content}>
-        <div>
-          <img className={styles.images} src={Agilidade} alt="" />
-          <p>Agilidade e Eficiência</p>
-        </div>
-        <div>
-          <img className={styles.imageCar} src={Carro} alt="" />
-          <p>Soluções Eficientes</p>
-        </div>
-        <div>
-          <img className={styles.images} src={Qualidade} alt="" />
-          <p>Qualidade e garantia</p>
-        </div>
-        <div>
-          <img className={styles.images} src={Cartao} alt="" />
-          <p>Condições Especiais</p>
-        </div>
+    <div className={styles.content}>
+      <div>
+        <img className={styles.images} src={Agilidade} alt="" />
+        <p>Agilidade e eficiência</p>
       </div>
-    </>
+      <div>
+        <img className={styles.images} src={Carro} alt="" />
+        <p>Soluções eficientes</p>
+      </div>
+      <div>
+        <img className={styles.images} src={Qualidade} alt="" />
+        <p>Qualidade e garantia</p>
+      </div>
+      <div>
+        <img className={styles.images} src={Cartao} alt="" />
+        <p>Condições especiais</p>
+      </div>
+    </div>
   );
 };
 

@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from ".././sectionServices/SectionServices.module.css";
+import Modal from "react-modal";
+
+Modal.setAppElement("#root");
 const Services = () => {
+  const [modalIsOpen, setIsOpen] = useState(false);
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
     <div id="services" className={styles.main}>
       <div className={styles.serviceText}>
@@ -12,16 +24,64 @@ const Services = () => {
           <div className={styles.content}>
             <img className={styles.contentImage} />
             <div className={styles.text}>
-              <p>Suspençao mecanica</p>
-              <button>Saiba mais</button>
+              <p>Injeção eletronica</p>
+              <button onClick={openModal}>Open Modal</button>
+              <div className={styles.container}>
+                <Modal
+                  isOpen={modalIsOpen}
+                  onRequestClose={closeModal}
+                  contentLabel="Example Modal"
+                  overlayClassName={styles.modalOverlay}
+                  className={styles.modalContent}
+                >
+                  <h2>Hello - I am a modal!</h2>
+                  <br />
+                  <p>
+                    We maintain that accessibility is a key component of any
+                    modern web application. As such, we have created this modal
+                    in such a way that it fulfills the accessibility
+                    requirements of the modern web. We seek to keep the focus on
+                    accessibility while providing a functional, capable modal
+                    component for general use.
+                  </p>
+                  <br />
+                  <button onClick={closeModal} className={styles.buttonModal}>
+                    Voltar
+                  </button>
+                </Modal>
+              </div>
             </div>
           </div>
 
           <div className={styles.content}>
             <img className={styles.contentImage} />
             <div className={styles.text}>
-              <p>Freio mecanica</p>
-              <button>Saiba mais</button>
+              <p>Suspençao mecanica</p>
+              <button onClick={openModal}>Open Modal</button>
+              <div className={styles.container}>
+                <Modal
+                  isOpen={modalIsOpen}
+                  onRequestClose={closeModal}
+                  contentLabel="Example Modal"
+                  overlayClassName={styles.modalOverlay}
+                  className={styles.modalContent}
+                >
+                  <h2>Hello - I am a modal!</h2>
+                  <br />
+                  <p>
+                    We maintain that accessibility is a key component of any
+                    modern web application. As such, we have created this modal
+                    in such a way that it fulfills the accessibility
+                    requirements of the modern web. We seek to keep the focus on
+                    accessibility while providing a functional, capable modal
+                    component for general use.
+                  </p>
+                  <br />
+                  <button onClick={closeModal} className={styles.buttonModal}>
+                  Voltar
+                  </button>
+                </Modal>
+              </div>
             </div>
           </div>
         </div>
@@ -31,14 +91,63 @@ const Services = () => {
             <img className={styles.contentImage} />
             <div className={styles.text}>
               <p>Injeção mecanica</p>
-              <button>Saiba mais</button>
+              <button onClick={openModal}>Open Modal</button>
+              <div className={styles.container}>
+                <Modal
+                  isOpen={modalIsOpen}
+                  onRequestClose={closeModal}
+                  contentLabel="Example Modal"
+                  overlayClassName={styles.modalOverlay}
+                  className={styles.modalContent}
+                >
+                  <h2>Hello - I am a modal!</h2>
+                  <br />
+                  <p>
+                    We maintain that accessibility is a key component of any
+                    modern web application. As such, we have created this modal
+                    in such a way that it fulfills the accessibility
+                    requirements of the modern web. We seek to keep the focus on
+                    accessibility while providing a functional, capable modal
+                    component for general use.
+                  </p>
+                  <br />
+                  <button onClick={closeModal} className={styles.buttonModal}>
+                  Voltar
+                  </button>
+                </Modal>
+              </div>
             </div>
           </div>
+
           <div className={styles.content}>
             <img className={styles.contentImage} />
             <div className={styles.text}>
               <p>Motores mecanica</p>
-              <button onClick={() => alert("suspe")}>Saiba mais</button>
+              <button onClick={openModal}>Open Modal</button>
+              <div className={styles.container}>
+                <Modal
+                  isOpen={modalIsOpen}
+                  onRequestClose={closeModal}
+                  contentLabel="Example Modal"
+                  overlayClassName={styles.modalOverlay}
+                  className={styles.modalContent}
+                >
+                  <h2>Hello - I am a modal!</h2>
+                  <br />
+                  <p>
+                    We maintain that accessibility is a key component of any
+                    modern web application. As such, we have created this modal
+                    in such a way that it fulfills the accessibility
+                    requirements of the modern web. We seek to keep the focus on
+                    accessibility while providing a functional, capable modal
+                    component for general use.
+                  </p>
+                  <br />
+                  <button onClick={closeModal} className={styles.buttonModal}>
+                  Voltar
+                  </button>
+                </Modal>
+              </div>
             </div>
           </div>
         </div>

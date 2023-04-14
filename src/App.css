@@ -1,7 +1,13 @@
+:root {
+  --white: #fff;
+  --red: #800;
+  --background: rgb(211, 212, 213);
+  --backgroundModal: rgb(179, 176, 172)
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-

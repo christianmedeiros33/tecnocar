@@ -1,11 +1,11 @@
 .main {
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: var(--white);
   padding: 1rem;
   font-size: 0.8rem;
   align-items: center;
-  background-color: #800000;
+  background-color: var(--red);
 }
 
 @media (max-width: 600px) {

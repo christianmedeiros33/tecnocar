@@ -1,6 +1,6 @@
 .main {
-  padding: 1rem 0 2rem 0;
-  gap: 1rem;
+  padding: 1em 0 2em 0;
+  gap: 1em;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .content {
-  background-color: rgb(243, 240, 240);
+  background-color: var(--background);
   height: 21rem;
   width: 15rem;
   text-align: center;
@@ -48,7 +48,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #800;
+  color: var(--red);
   font-weight: bold;
 }
 .text p {
@@ -58,11 +58,11 @@
 .text button {
   padding: 0.8rem;
   width: 10.8rem;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
   border: none;
   border-radius: 0.4rem;
-  background-color: #800000;
+  background-color: var(--red);
 }
 
 .buttonClick {
@@ -70,12 +70,54 @@
   gap: 1rem;
   padding: 0.8rem;
   width: 15em;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
   border: none;
   border-radius: 0.4rem;
-  background-color: #800000;
+  background-color: var(--red);
   font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalOverlay {
+  color: var(--white);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  width: 90%;
+  max-width: 500px;
+  background-color: var(--backgroundModal);
+  padding: 10px;
+  border-radius: 5px;
+}
+.buttonModal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  color: var(--white);
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: var(--red);
+  font-weight: bold;
+
 }
 
 @media (max-width: 600px) {
@@ -84,12 +126,12 @@
     padding: 0.2rem;
   }
   .content {
-    height: 24.5rem;
-    width: 20rem;
+    height: 22rem;
+    width: 19rem;
   }
   .contentImage {
-    height: 18rem;
-    width: 20rem;
+    height: 15rem;
+    width: 19rem;
   }
   .mainFlex {
     gap: 1.5rem;
@@ -115,10 +157,10 @@
 @media (max-width: 321px) {
   .content {
     height: 22rem;
-    width: 18rem;
+    width: 16rem;
   }
   .contentImage {
     height: 15rem;
-    width: 18rem;
+    width: 16rem;
   }
 }

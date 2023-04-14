@@ -18,7 +18,7 @@ const Location = () => {
         </button>
       </div>
 
-      <div className={styles.workshopPhoto}></div>
+      <div className={styles.workshopPhoto} />
     </div>
   );
 };
