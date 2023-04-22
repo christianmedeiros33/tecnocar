@@ -26,20 +26,14 @@
 
 .content {
   background-color: var(--background);
-  height: 21rem;
+  height: 16rem;
   width: 15rem;
   text-align: center;
   border-radius: 0.3rem;
 }
 .contentImage {
-  background-image: url(../../assets/services.svg);
-
   border-radius: 0.3rem 0.3rem 0 0;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 15rem;
+  background-size: contain;
   width: 15rem;
 }
 
@@ -103,7 +97,7 @@
   padding: 10px;
   border-radius: 5px;
 }
-.buttonModal{
+.buttonModal {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +110,6 @@
   border-radius: 0.4rem;
   background-color: var(--red);
   font-weight: bold;
-
 }
 
 @media (max-width: 600px) {
@@ -125,12 +118,11 @@
     padding: 0.2rem;
   }
   .content {
-    height: 22rem;
-    width: 19rem;
+    height: 18rem;
+    width: 17rem;
   }
   .contentImage {
-    height: 15rem;
-    width: 19rem;
+    width: 17rem;
   }
   .mainFlex {
     gap: 1.5rem;
@@ -155,11 +147,10 @@
 
 @media (max-width: 321px) {
   .content {
-    height: 22rem;
-    width: 16rem;
+    height: 19rem;
+    width: 18rem;
   }
   .contentImage {
-    height: 15rem;
-    width: 16rem;
+    width: 18rem;
   }
 }

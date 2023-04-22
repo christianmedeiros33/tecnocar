@@ -1,8 +1,8 @@
 :root {
   --white: #fff;
   --red: #800;
-  --background: rgb(211, 212, 213);
-  --backgroundModal: rgb(179, 176, 172)
+  --background: rgb(235, 235, 235);
+  --backgroundModal:  rgb(179, 176, 172)
 }
 
 * {

@@ -8,6 +8,7 @@
 }
 
 .textContent {
+  width: 70.9%;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -39,10 +40,10 @@
     height: 80vh;
   }
   .textContent {
-    width: 95%;
+    width: 88%;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
   }
   .textContent h1 {
     padding: 0;

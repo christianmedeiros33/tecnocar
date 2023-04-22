@@ -8,7 +8,9 @@ const ContentIndex = () => {
         <div className={styles.textContent}>
           <h1>Oficina tecnocar</h1>
           <p>
-            Oferecemos as melhores soluções e equipamentos para seu veículo!
+            Fundada em 16 de novembro de 2006 na cidade de Camaquã, com o
+            objetivo de oferecer serviços de alta qualidade e fazer a diferença
+            no mercado automotivo.
           </p>
         </div>
       </div>
