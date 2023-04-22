@@ -17,17 +17,11 @@ function Mapa() {
           rel="noopener noreferrer"
           intent
         >
-        </a>  <button className={styles.buttonClick}>
+          <button className={styles.buttonClick}>
             <img src={Emoji} /> IR ATÉ A OFICINA
           </button>
+        </a>
       </div>
-      <MapContainer center={position} zoom={zoom} style={{ height: "300px"}}>
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        <Marker position={position}>
-          <Popup>Mecanica Tecnocar <br /> 3671-3444  51 99999-9999</Popup>
-        </Marker>
-      </MapContainer>
-        
     </div>
   );
 }

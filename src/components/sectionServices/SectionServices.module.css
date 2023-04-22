@@ -67,7 +67,6 @@
 
 .buttonClick {
   display: flex;
-  gap: 1rem;
   padding: 0.8rem;
   width: 15em;
   color: var(--white);

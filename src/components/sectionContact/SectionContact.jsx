@@ -15,7 +15,7 @@ const Footer = () => {
         <div>
           <h4>Telefones</h4>
           <p>(51) 3671-3444</p>
-          <p>(51) 99999-0000</p>
+          <p>(51) 99559-2253</p>
         </div>
       </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
         <h4>Redes Sociais</h4>
 
         <div className={styles.redes}>
-          <a href="https://facebook.com/tecnocar" target="_blank">
+          <a href="https://www.facebook.com/mecanicatecnocar.camaqua/?locale=pt_BR" target="_blank">
             <img src={Facebook} alt="" />
           </a>
           <a href="https://instagram.com/tecnocarcamaqua" target="_blank">
