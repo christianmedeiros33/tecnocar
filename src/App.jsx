@@ -1,5 +1,7 @@
-import "./App.css";
+import Analytics from '@vercel/analytics';
+Analytics.initialize({ projectID: 'prj_iRf1RPrgwcbGxy2ArqkpIDUiiQPP' });
 
+import "./App.css";
 import Header from "./components/headerTecnocar/Header";
 import SectionTecnocar from "./components/sectionTecnocar/SectionTecnocar";
 import SectionAbout from "./components/sectionAbout/SectionAbout";
