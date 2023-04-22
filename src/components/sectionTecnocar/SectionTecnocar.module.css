@@ -1,11 +1,10 @@
 .content {
-  background-color: black;
   height: 90vh;
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(./../../assets/oficina.svg);
+  background-image: url(./../../assets/divback.svg);
 }
 
 .textContent {
