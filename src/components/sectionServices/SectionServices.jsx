@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import styles from ".././sectionServices/SectionServices.module.css";
 import Modal from "react-modal";
-import injecao from "../../assets/injecao.svg";
-import motor from "../../assets/motores.svg";
-import suspensao from "../../assets/suspensao.svg";
-import oleos from "../../assets/oleos.svg";
 
 Modal.setAppElement("#root");
 
@@ -53,7 +49,7 @@ const Services = () => {
       <div className={styles.mainFlex}>
         <div className={styles.cardOneTwo}>
           <div className={styles.content}>
-            <img className={styles.contentImage} src={injecao} />
+            <img className={styles.contentImage}  />
             <div className={styles.text}>
               <p>Sobre Injeção</p>
               <ModalButton text="A revisão de injeção do veículo é um processo essencial para garantir o bom funcionamento do motor e evitar problemas mecânicos. A injeção eletrônica é responsável por fornecer a quantidade correta de combustível para o motor, controlando a sua velocidade e desempenho. Se ela não estiver funcionando corretamente, isso pode afetar diretamente a eficiência do veículo e até mesmo causar danos ao motor." />
@@ -61,7 +57,7 @@ const Services = () => {
           </div>
 
           <div className={styles.content}>
-            <img className={styles.contentImage} src={suspensao} />
+            <img className={styles.contentImage1}  />
             <div className={styles.text}>
               <p>Sobre Suspençao</p>
               <ModalButton text="É importante realizar a manutenção preventiva da suspensão do veículo regularmente, pois o desgaste natural das peças pode comprometer a segurança e o conforto durante a condução. A verificação dos amortecedores, molas, buchas e demais componentes deve ser feita periodicamente por um profissional qualificado, que poderá identificar e substituir as peças desgastadas ou danificadas antes que elas comprometam a estabilidade e segurança do veículo." />
@@ -71,7 +67,7 @@ const Services = () => {
 
         <div className={styles.cardThreeFor}>
           <div className={styles.content}>
-            <img className={styles.contentImage} src={oleos} />
+            <img className={styles.contentImage2}  />
             <div className={styles.text}>
               <p>Sobre óleos</p>
               <ModalButton text="Os óleos do veículo são essenciais para o seu bom funcionamento e desempenho. Eles são responsáveis por lubrificar as peças do motor, reduzir o desgaste e a fricção, dissipar o calor gerado pela combustão e manter o motor limpo." />
@@ -79,7 +75,7 @@ const Services = () => {
           </div>
 
           <div className={styles.content}>
-            <img className={styles.contentImage} src={motor} />
+            <img className={styles.contentImage3} />
             <div className={styles.text}>
               <p>Sobre Motores</p>
               <ModalButton

@@ -32,8 +32,33 @@
   border-radius: 0.3rem;
 }
 .contentImage {
+  background-image: url(../../assets/injecao.svg);
   border-radius: 0.3rem 0.3rem 0 0;
-  background-size: contain;
+  background-size: cover;
+  height: 10rem;
+  width: 15rem;
+}
+
+.contentImage1 {
+  background-image: url(../../assets/suspensao.svg);
+  border-radius: 0.3rem 0.3rem 0 0;
+  background-size: cover;
+  height: 10rem;
+  width: 15rem;
+}
+
+.contentImage2 {
+  background-image: url(../../assets/oleos.svg);
+  border-radius: 0.3rem 0.3rem 0 0;
+  background-size: cover;
+  height: 10rem;
+  width: 15rem;
+}
+.contentImage3 {
+  background-image: url(../../assets/motores.svg);
+  border-radius: 0.3rem 0.3rem 0 0;
+  background-size: cover;
+  height: 10rem;
   width: 15rem;
 }
 
@@ -118,10 +143,19 @@
     padding: 0.2rem;
   }
   .content {
-    height: 18rem;
+    height: 17rem;
     width: 17rem;
   }
   .contentImage {
+    width: 17rem;
+  }
+  .contentImage1 {
+    width: 17rem;
+  }
+  .contentImage2 {
+    width: 17rem;
+  }
+  .contentImage3 {
     width: 17rem;
   }
   .mainFlex {
