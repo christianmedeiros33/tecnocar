@@ -13,7 +13,7 @@ const Header = () => {
             <a>
               <li>
                 <Link to="sobre" spy={true} smooth={true} duration={1000}>
-                  sobre
+                  Sobre
                 </Link>
               </li>
             </a>
@@ -21,7 +21,7 @@ const Header = () => {
             <a>
               <li>
                 <Link to="services" spy={true} smooth={true} duration={1000}>
-                  serviços
+                  Serviços
                 </Link>
               </li>
             </a>
@@ -29,7 +29,7 @@ const Header = () => {
             <a>
               <li>
                 <Link to="location" spy={true} smooth={true} duration={1000}>
-                  agendamento
+                  Agendamento
                 </Link>
               </li>
             </a>
@@ -37,7 +37,7 @@ const Header = () => {
             <a>
               <li>
                 <Link to="contatos" spy={true} smooth={true} duration={1000}>
-                  contato
+                  Contato
                 </Link>
               </li>
             </a>

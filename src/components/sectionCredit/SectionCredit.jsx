@@ -6,7 +6,7 @@ const SectionCredit = () => {
   return (
     <div id="contatos" className={styles.main}>
       <p>
-        © 2023 Oficina Tecnocar Camaquã -
+        ©2023 Tecnocar Camaquã -
         <a href="https://wa.me/5551997811832" target="_blank">
           @medeiroscode
         </a>

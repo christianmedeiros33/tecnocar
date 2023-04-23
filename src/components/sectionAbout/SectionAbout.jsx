@@ -6,7 +6,7 @@ const ContentSobre = () => {
   return (
     <div id="sobre" className={styles.content}>
       <div className={styles.experience}>
-        <h3>A MELHOR EXPERIÊNCIA PARA O SEU CARRO.</h3>
+        <h3>A MELHOR EXPERIÊNCIA PARA O SEU VEÍCULO.</h3>
         <p>Sempre em busca de qualidade.</p>
         <a href="/#location">
           <Link to="location" spy={true} smooth={true} duration={700}>
@@ -16,9 +16,9 @@ const ContentSobre = () => {
       </div>
       <div className={styles.about}>
         <p>
-          Serviços de diagnóstico sistema eletrônica embarcada manutenção
-          preventiva em geral, reparo de módulos de injeção ABS e airbag
-          retifica de motor freio suspensão em geral.
+          Serviços de diagnóstico avançado, injeção eletrônica, manutenção
+          preventiva, reparo de módulos de injeção, ABS e airbag, retifica de
+          motor, freio, suspensão em geral.
         </p>
       </div>
     </div>

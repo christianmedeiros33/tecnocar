@@ -22,7 +22,7 @@ const Footer = () => {
       <div className={styles.containerTextAndRedes}>
 
       <div>
-        <h4>Horário</h4>
+        <h4>Horários</h4>
         <p>Segunda à Sexta-Feira</p>
         <p>07:30 às 12h e 13:30 às 18:30</p>
       </div>
