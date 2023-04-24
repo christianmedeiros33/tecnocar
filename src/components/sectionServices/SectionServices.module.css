@@ -26,8 +26,8 @@
 
 .content {
   background-color: var(--background);
-  height: 16rem;
-  width: 15rem;
+  height: 19rem;
+  width: 17rem;
   text-align: center;
   border-radius: 0.3rem;
 }
@@ -35,31 +35,31 @@
   background-image: url(../../assets/injecao.svg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
-  height: 10rem;
-  width: 15rem;
+  height: 12rem;
+  width: 17rem;
 }
 
 .contentImage1 {
   background-image: url(../../assets/suspensao.svg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
-  height: 10rem;
-  width: 15rem;
+  height: 12rem;
+  width: 17rem;
 }
 
 .contentImage2 {
   background-image: url(../../assets/oleos.svg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
-  height: 10rem;
-  width: 15rem;
+  height: 12rem;
+  width: 17rem;
 }
 .contentImage3 {
   background-image: url(../../assets/motores.svg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
-  height: 10rem;
-  width: 15rem;
+  height: 12rem;
+  width: 17rem;
 }
 
 .text {
@@ -143,20 +143,24 @@
     padding: 0.2rem;
   }
   .content {
-    height: 17rem;
-    width: 17rem;
+    height: 23rem;
+    width: 19rem;
   }
   .contentImage {
-    width: 17rem;
+    width: 19rem;
+    height: 16rem;
   }
   .contentImage1 {
-    width: 17rem;
+    width: 19rem;
+    height: 16rem;
   }
   .contentImage2 {
-    width: 17rem;
+    width: 19rem;
+    height: 16rem;;
   }
   .contentImage3 {
-    width: 17rem;
+    width: 19rem;
+    height: 16rem;
   }
   .mainFlex {
     gap: 1.5rem;

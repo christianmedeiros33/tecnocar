@@ -19,7 +19,7 @@ const ModalButton = ({ text }) => {
     <>
       <button onClick={openModal}>
         {" "}
-        <strong > Leia sobre</strong>
+        <strong> Leia sobre</strong>
       </button>
       <div className={styles.container}>
         <Modal
@@ -62,7 +62,7 @@ const Services = () => {
           <div className={styles.content}>
             <img className={styles.contentImage1} />
             <div className={styles.text}>
-              <p>Manutenção suspençao</p>
+              <p>Suspensão em geral</p>
               <ModalButton text="É importante realizar a manutenção preventiva da suspensão do veículo regularmente, pois o desgaste natural das peças pode comprometer a segurança e o conforto durante a condução. A verificação dos amortecedores, molas, buchas e demais componentes deve ser feita periodicamente por um profissional qualificado, que poderá identificar e substituir as peças desgastadas ou danificadas antes que elas comprometam a estabilidade e segurança do veículo." />
             </div>
           </div>
@@ -72,7 +72,7 @@ const Services = () => {
           <div className={styles.content}>
             <img className={styles.contentImage2} />
             <div className={styles.text}>
-              <p>Trocas óleos e fluidos</p>
+              <p>Trocas de óleos e fluidos</p>
               <ModalButton text="Os óleos do veículo são essenciais para o seu bom funcionamento e desempenho. Eles são responsáveis por lubrificar as peças do motor, reduzir o desgaste e a fricção, dissipar o calor gerado pela combustão e manter o motor limpo." />
             </div>
           </div>
