@@ -32,32 +32,36 @@
   border-radius: 0.3rem;
 }
 .contentImage {
-  background-image: url(../../assets/injecao.svg);
+  background-image: url(https://i.imgur.com/luKXiR0.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
+  background-position: center;
   height: 12rem;
   width: 17rem;
 }
 
 .contentImage1 {
-  background-image: url(../../assets/suspensao.svg);
+  background-image: url(https://i.imgur.com/cdmXAye.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
+  background-position: center;
   height: 12rem;
   width: 17rem;
 }
 
 .contentImage2 {
-  background-image: url(../../assets/oleos.svg);
+  background-image: url(https://i.imgur.com/TqkQTpQ.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
+  background-position: center;
   height: 12rem;
   width: 17rem;
 }
 .contentImage3 {
-  background-image: url(../../assets/motores.svg);
+  background-image: url(https://i.imgur.com/C84NUMd.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
+  background-position: center;
   height: 12rem;
   width: 17rem;
 }

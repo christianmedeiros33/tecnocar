@@ -55,7 +55,8 @@ const Services = () => {
             <img className={styles.contentImage} />
             <div className={styles.text}>
               <p>Diagnóstico de Injeção</p>
-              <ModalButton text="A revisão de injeção do veículo é um processo essencial para garantir o bom funcionamento do motor e evitar problemas mecânicos. A injeção eletrônica é responsável por fornecer a quantidade correta de combustível para o motor, controlando a sua velocidade e desempenho. Se ela não estiver funcionando corretamente, isso pode afetar diretamente a eficiência do veículo e até mesmo causar danos ao motor." />
+              <ModalButton text="Contamos com profissional treinados e com vasta experiência na área de diagnóstico eletrônico, oferecendo rapidez e precisão trabalhando com o osciloscópio, equipamento que possibilita ao técnico realizar diagnósticos por imagem, sendo assim muito mais preciso sem a necessidade de fazer desmontagens. Com o osciloscópio é possível se verificar peças internas do motor como válvulas e anéis sem desmontar nada, também é possível verificar saúde de um componente eletrônicos
+ex: bomba de combustível, bobina de ignição entre outros e assim prevenindo uma possível falha no veículo em viagem." />
             </div>
           </div>
 
