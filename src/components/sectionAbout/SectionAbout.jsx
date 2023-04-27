@@ -16,12 +16,7 @@ const ContentSobre = () => {
             </div>
             <div className={styles.about}>
                 <p>
-                    Serviços de diagnóstico avançado, injeção eletrônica, manutenção
-                    preventiva, reparo de módulos de injeção, ABS e airbag, retifica de
-                    preventiva, reparo de módulos de injeção, ABS e airbag, retifica de
-                    preventiva, reparo de módulos de injeção, ABS e airbag, retifica de
-                    motor, freio, suspensão em geral.
-                </p>
+                    Oferecemos serviços avançados de diagnóstico, injeção eletrônica e manutenção preventiva para garantir o funcionamento correto do seu veículo. Além disso, realizamos reparos em módulos de injeção, ABS e airbag, e manutenção de motores, freios e suspensão. Nossa equipe está preparada para atender todas as suas necessidades automotivas de forma eficiente e profissional.                </p>
             </div>
         </div>
     );
