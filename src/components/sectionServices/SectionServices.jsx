@@ -55,7 +55,7 @@ const Services = () => {
             <img className={styles.contentImage} />
             <div className={styles.text}>
               <p>Diagnóstico de Injeção</p>
-              <ModalButton text="Contamos com profissional treinados e com vasta experiência na área de diagnóstico eletrônico, oferecendo rapidez e precisão trabalhando com o osciloscópio, equipamento que possibilita ao técnico realizar diagnósticos por imagem, sendo assim muito mais preciso sem a necessidade de fazer desmontagens. Com o osciloscópio é possível se verificar peças internas do motor como válvulas e anéis sem desmontar nada, também é possível verificar saúde de um componente eletrônicos
+              <ModalButton text="Contamos com profissionais treinados e com vasta experiência na área de diagnóstico eletrônico, oferecendo rapidez e precisão trabalhando com o osciloscópio, equipamento que possibilita ao técnico realizar diagnósticos por imagem, sendo assim muito mais preciso sem a necessidade de fazer desmontagens. Com o osciloscópio é possível se verificar peças internas do motor como válvulas e anéis sem desmontar nada, também é possível verificar saúde de um componente eletrônicos
 ex: bomba de combustível, bobina de ignição entre outros e assim prevenindo uma possível falha no veículo em viagem." />
             </div>
           </div>
