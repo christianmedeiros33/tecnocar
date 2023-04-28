@@ -15,8 +15,17 @@ const ContentSobre = () => {
                 </a>
             </div>
             <div className={styles.about}>
-                <p>
-                    Oferecemos serviços avançados de diagnóstico, injeção eletrônica e manutenção preventiva para garantir o funcionamento correto do seu veículo. Além disso, realizamos reparos em módulos de injeção, ABS e airbag, e manutenção de motores, freios e suspensão. Nossa equipe está preparada para atender todas as suas necessidades automotivas de forma eficiente e profissional.                </p>
+            <h2> Serviços que realizamos</h2>
+                <p> Diagnósticos de falhas mecânica e eletrônica com o osciloscópio.<br/>
+                    Reparo e manutenção em sistemas de injeção eletrônica para motores a gasolina, flex e diesel.<br/>
+                    Reparo de central eletrônica.<br/>
+                    Reparo de imobilizador.<br/>
+                    Programação de chaves.<br/>
+                    Revisão preventiva.<br/>
+                    Troca de óleo e filtro do câmbio automático com máquina.<br/>
+                    Regulagem de motor.<br/>
+                    Retifica de motores.<br/>
+                    Suspensão, freios e direção.</p>
             </div>
         </div>
     );

@@ -32,7 +32,7 @@
   border-radius: 0.3rem;
 }
 .contentImage {
-  background-image: url(https://i.imgur.com/luKXiR0.jpg);
+  background-image: url(https://i.imgur.com/cPgrDuZ.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
   background-position: center;
@@ -41,7 +41,7 @@
 }
 
 .contentImage1 {
-  background-image: url(https://i.imgur.com/cdmXAye.png?1);
+  background-image: url(https://i.imgur.com/3SG1jQe.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
   background-size: cover;
   background-position: center;
@@ -50,9 +50,9 @@
 }
 
 .contentImage2 {
-  background-image: url(https://i.imgur.com/TqkQTpQ.jpg);
+  background-image: url(https://i.imgur.com/8Xwdule.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
-  background-size: cover;
+background-size: cover;
   background-position: center;
   height: 12rem;
   width: 17rem;
