@@ -75,9 +75,9 @@
     height: 22rem;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .maps {
-    width: 21rem;
+    width: 22rem;
     height: 17rem;
   }
 }
