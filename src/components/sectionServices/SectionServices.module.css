@@ -52,7 +52,7 @@
 .contentImage2 {
   background-image: url(https://i.imgur.com/8Xwdule.jpg);
   border-radius: 0.3rem 0.3rem 0 0;
-background-size: cover;
+  background-size: cover;
   background-position: center;
   height: 12rem;
   width: 17rem;
@@ -160,7 +160,7 @@ background-size: cover;
   }
   .contentImage2 {
     width: 19rem;
-    height: 16rem;;
+    height: 16rem;
   }
   .contentImage3 {
     width: 19rem;
@@ -189,10 +189,16 @@ background-size: cover;
 
 @media (max-width: 321px) {
   .content {
-    height: 19rem;
+    height: 23rem;
     width: 18rem;
   }
-  .contentImage {
+  button {
+    padding: 5rem;
+  }
+  .contentImage,
+  .contentImage1,
+  .contentImage2,
+  .contentImage3 {
     width: 18rem;
   }
 }

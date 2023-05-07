@@ -26,3 +26,64 @@
   border-radius: 0.4rem;
   background-color: var(--red);
 }
+
+.maps {
+  width: 72rem;
+  height: 30rem;
+  margin: 0 auto;
+  border: none;
+}
+@media (max-width: 1030px) {
+  .maps {
+    width: 60rem;
+    height: 25rem;
+  }
+}
+@media (max-width: 768px) {
+  .maps {
+    width: 40rem;
+    height: 25rem;
+  }
+}
+@media (max-width: 702px) {
+  .maps {
+    width: 15rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 702px) {
+  .maps {
+    width: 40rem;
+    height: 22rem;
+  }
+}
+@media (max-width: 667px) {
+  .maps {
+    width: 30rem;
+    height: 22rem;
+  }
+}
+@media (max-width: 520px) {
+  .maps {
+    width: 26rem;
+    height: 22rem;
+  }
+}
+@media (max-width: 429px) {
+  .maps {
+    width: 24rem;
+    height: 22rem;
+  }
+}
+@media (max-width: 380px) {
+  .maps {
+    width: 21rem;
+    height: 17rem;
+  }
+}
+@media (max-width: 330px) {
+  .maps {
+    width: 18rem;
+    height: 17rem;
+  }
+}
