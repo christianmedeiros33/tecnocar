@@ -8,7 +8,7 @@ const SectionCredit = () => {
             <p>
                 ©2023 Tecnocar Camaquã -
                 <a href="https://wa.me/5551997811832" target="_blank">
-                    @medeiroscode
+                    @MedeirosWebSites
                 </a>
             </p>
         </div>
