@@ -14,7 +14,6 @@ const Footer = () => {
                 </div>
                 <div>
                     <h4>Telefones</h4>
-                    <p>(51) 3671-3444</p>
                     <p>(51) 99559-2253</p>
                 </div>
             </div>
@@ -24,7 +23,7 @@ const Footer = () => {
                 <div>
                     <h4>Horários</h4>
                     <p>Segunda à Sexta-Feira</p>
-                    <p>07:30 às 12h e 13:30 às 18:30</p>
+                    <p>08:00 às 12h e 13:30 às 18:30</p>
                 </div>
 
                 <div className={styles.containerRedes}>
